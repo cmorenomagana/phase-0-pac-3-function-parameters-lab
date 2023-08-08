@@ -6,7 +6,7 @@ describe('introduction(name)', function() {
     expect(introduction("Aki")).toEqual("Hi, my name is Aki.");
     expect(introduction("Samip")).toEqual("Hi, my name is Samip.");
   })
-})
+})   
 
 describe('introductionWithLanguage(name, language)', function() {
   it('takes in two arguments, a name and a language, and returns a phrase using those arguments', function() {
